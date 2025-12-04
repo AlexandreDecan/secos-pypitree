@@ -1,0 +1,9 @@
+uv init folder --bare --no-workspace
+
+uv add package==version --exclude-newer "2025-01-01T00:00:00Z" --no-sync -qq
+
+# Show dependency tree, size, hashes, etc.
+uv tree --no-dev --no-dedupe --no-progress --show-sizes --quiet
+uv export --frozen --no-sync --format pylock.toml > pylock.toml
+
+uv remove

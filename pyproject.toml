@@ -1,0 +1,13 @@
+[project]
+name = "deptree"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab>=4.5.0",
+    "lifelines>=0.30.0",
+    "matplotlib>=3.10.7",
+    "polars[pyarrow]>=1.35.2",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+]

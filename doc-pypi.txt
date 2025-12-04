@@ -1,0 +1,22 @@
+curl https://pypi.org/pypi/PROJECT/json
+ --> "info" (last release)
+ --> "releases" (mapping from version to list of distributions)
+    --> each distribution has "size", "upload_time", "upload_time_iso_8601", "packagetype" (bdist_wheel, sdist, ...)
+Also: https://docs.pypi.org/api/bigquery/
+
+
+
+Top 15K downloaded packages from PyPI, monthly dump:
+https://hugovk.github.io/top-pypi-packages/
+ - https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json
+ - https://hugovk.github.io/top-pypi-packages/top-pypi-packages.csv
+ 
+ 
+ 
+List of "awesome" packages, based on stars, stars per week, etc. (~2600 entries)
+https://www.awesomepython.org/?full=1
+The list is based on *repositories*, not on packages.
+It has a score based on criticality (see https://github.com/ossf/criticality_score)
+Dumps are available at
+https://github.com/dylanhogg/awesome-python/blob/main/github_data.json
+https://github.com/dylanhogg/awesome-python/blob/main/github_data.csv
