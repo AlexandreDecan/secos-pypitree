@@ -3,6 +3,7 @@ name = "deptree"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "joblib>=1.5.3",
     "jupyterlab>=4.5.0",
     "lifelines>=0.30.0",
     "matplotlib>=3.10.7",
